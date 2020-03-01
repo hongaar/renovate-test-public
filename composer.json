@@ -1,0 +1,13 @@
+{
+    "name": "hongaar/renovate-test-public",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Joram van den Boezem",
+            "email": "joram@vandenboezem.nl"
+        }
+    ]
+}
