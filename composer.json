@@ -1,7 +1,14 @@
 {
     "name": "hongaar/renovate-test-public",
     "type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:hongaar/renovate-test-private.git"
+        }
+    ],
     "require": {
+        "hongaar/renovate-test-private": "dev-master",
         "symfony/http-foundation": "^5.0"
     },
     "authors": [

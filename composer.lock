@@ -4,8 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e556f8e73a91467b23782c55af69a0ea",
+    "content-hash": "8ccfb74bf728022bcdb548f2701c24bb",
     "packages": [
+        {
+            "name": "hongaar/renovate-test-private",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:hongaar/renovate-test-private.git",
+                "reference": "8cadfdcbf77b8fcfd681a610bc9e5e45dd1e5eeb"
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Joram van den Boezem",
+                    "email": "joram@vandenboezem.nl"
+                }
+            ],
+            "time": "2020-03-01T21:24:36+00:00"
+        },
         {
             "name": "symfony/http-foundation",
             "version": "v5.0.5",
@@ -303,7 +320,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "hongaar/renovate-test-private": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
